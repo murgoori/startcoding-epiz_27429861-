@@ -34,7 +34,7 @@ function onSignIn(googleUser) {
 			<section id="header">
 				<div class="inner">
 					<span class="icon solid major fa-cloud"></span>
-					<h1>2020 포항제철공업고등학교<br/> <strong>스타트 코딩 전시회</strong>
+					<h1>2020- 포항제철공업고등학교<br/> <strong>스타트 코딩 전시회</strong>
 					</h1>
 					<p>작품 제출자 : 박진홍, 최원영, 김희진, 박태명, 이동혁, 전선우, 김경민, 윤세영, 홍성재, 김민성<br />
 					&copy; 코딩동아리</p>
