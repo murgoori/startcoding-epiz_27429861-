@@ -34,11 +34,7 @@
 	<table>
 		<tr colspan = "2">
 			<td>
-<<<<<<< HEAD
 				 2020년 작품집 안녕 *^^* 또 네스트zzzaaa
-=======
-				 2020년 작품집 안녕 *^^* 또 네스트glaldl
->>>>>>> 35bee97cf8dfed76a6d202b14064e618c20695bc
 			</td>
 
 			<td>
