@@ -1,38 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<title>Page Title</title>
+    <meta charset="utf-8">
+    <title>01 TEST</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+    </style>
 </head>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<table class="w3-table-all">
- <tbody><tr>
-  <th>Type</th>
-  <th>Description</th>
- </tr>
- <tr>
-  <td>&lt;input type="text"&gt;</td>
-  <td>Displays a single-line text input field</td>
- </tr>
- <tr>
-  <td>&lt;input type="radio"&gt;</td>
-  <td>Displays a radio button (for selecting one of many choices)</td>
- </tr>
- <tr>
-  <td>&lt;input type="checkbox"&gt;</td>
-  <td>Displays a checkbox (for selecting zero or more of many choices)</td>
- </tr>
- <tr>
-  <td>&lt;input type="submit"&gt;</td>
-  <td>Displays a submit button (for submitting the form)</td>
- </tr>
- <tr>
-  <td>&lt;input type="button"&gt;</td>
-  <td>Displays a clickable button</td>
- </tr>
- </tbody></table>
+    <ul>
+        <li><a class="active" href = "01.html"> 1 </a></li>
+        <li><a href = "02.html"> 2 </a></li>
+        <li><a href = "03-1.menu_upper.html"> 3(menu) </a></li>
+    </ul>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+    <table>
+        <tbody>
+            <tr>
+                <th>Type</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;input type="text"&gt;</td>
+                <td>한 줄 한글 보이기</td>
+            </tr>
+            <tr>
+                <td>&lt;input type="radio"&gt;</td>
+                <td>Displays a radio button (for selecting one of many choices)</td>
+            </tr>
+            <tr>
+                <td>&lt;input type="checkbox"&gt;</td>
+                <td>Displays a checkbox (for selecting zero or more of many choices)</td>
+            </tr>
+            <tr>
+                <td>&lt;input type="submit"&gt;</td>
+                <td>Displays a submit button (for submitting the form)</td>
+            </tr>
+            <tr>
+                <td>&lt;input type="button"&gt;</td>
+                <td>Displays a clickable button</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
 
