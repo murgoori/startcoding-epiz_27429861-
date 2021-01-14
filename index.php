@@ -31,6 +31,11 @@
 				<a href = "JS_TEST/index.html"> 1st JAVASCRIPT </a>
 			</td>
 		</tr>
+		<tr>
+			<td>
+				<a href = "PHP_TEST/index.php"> 1st PHP </a>
+			</td>
+		</tr>
 	</table>
 </body>
 </html>

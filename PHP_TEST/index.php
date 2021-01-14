@@ -37,10 +37,13 @@
 </head>
 <body>
 	<ul>
-		<li><a href = "01.html"> JavaScript </a></li>
-		<li><a href = "json.html"> JSON </a></li>
-        <li><a href = "json_1.html"> JSON_1 </a></li>
-        <li><a href = "ajax_json_movie/index.html"> AJAX&JSON(mvoie charat) </a></li>
+		<li><a href = "01.php"> PHP </a></li>
+		<li><a href = "form/form_input.html"> PHP Form </a></li>
+        <li><a href = "form/form_self.php"> PHP Form Self check </a></li>
+        <li><a href = "mysql/member_list.php"> PHP mySQL </a></li>
+        <li><a href = "board/member.php"> BOARD </a></li>
+        <li><a href = "HP/index.php"> HP </a></li>
+        <li><a href = "00.FINAL/index.php"> FINAL </a></li>
 	</ul>
 </body>
 </html>
