@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font:17px 'Nanum Gothic', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:#4CAF50;
+}
+
+li{
+  list-style : none;
+}
+
+/* ==== 메뉴 ==== */
+
+#menu1{
+  background :#4CAF50;
+  height:50px;
+}
+
+#menu1 ul {
+  width:500px;
+  margin: 0 auto;
+}
+
+#menu1 ul li{
+  float:left;
+  width:25%;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  background:#4CAF50;
+}
+
+#menu ul li a{
+  display:block;
+}
+
+#menu ul li a:hover{
+  background:#98E0AD;
+  color:#666
+}
+
+#menu1 .main>li {
+  float:left;
+  width:25%;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  background:#98E0AD;
+  position:relative;
+}
+
+
+#menu1 .main>li:hover .sub{
+  display:block;
+}
+
+#menu1 .main>li a{
+  display:block;
+}
+
+#menu1 .main>li a:hover{
+  background:#4CAF50;
+  color:#666;
+}
+
+#menu1 .main .sub{
+  position:absolute;
+  top: 50px;
+  left:0;
+  width:100%;
+  display : none;
+}
+
+#menu1 .main .sub li{
+  background : #333;
+}
+
+#menu1 .main .sub li a:hover{
+  background: #4CAF50;
+}
+
+
+/*==========*/

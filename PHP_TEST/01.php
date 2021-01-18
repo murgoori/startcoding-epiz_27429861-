@@ -1,6 +1,18 @@
-<!DOCTYPE html>
-<html>
+<?php
+$URL = "http://startcoding.epizy.com/"
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My First PHP</title>
+    <meta name="description" content="Start Coding">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="../common/css/common.css">
+</head>
 <body>
+
+<?php include "../nav_main.php";?>
 
 <?php
 echo "<h3>###### print & echo #######</h3>";

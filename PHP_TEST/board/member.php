@@ -47,16 +47,28 @@ if( $user_id != '' && $user_pw != '' && $email != '' ){ // 아이디, 비밀번�
 }else{
  
 ?>
-<!DOCTYPE html>
+
+
+
+
+<?php
+$URL = "http://startcoding.epizy.com/"
+?>
+<!doctype html>
 <html lang="en">
-  <head>
- 
+<head>
+    <meta charset="utf-8">
     <title>회원가입 페이지</title>
+    <meta name="description" content="Start Coding">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="../../common/css/common.css">
     <link href="bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="signup.css" rel="stylesheet">
-  </head>
- 
-  <body>
+</head>
+<body>
+
+<?php include "../../nav_main.php";?>
+
     <div class="container">
       <form class="form-signin" method=POST >
         <h2 class="form-signin-heading">Please Sign Up</h2>

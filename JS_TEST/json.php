@@ -1,8 +1,15 @@
-<!DOCTYPE html>
-<html>
+<?php
+$URL = "http://startcoding.epizy.com/"
+?>
+<!doctype html>
+<html lang="en">
 <head>
-<title>YouTube JSON Example</title>
-
+    <meta charset="utf-8">
+    <title>YouTube JSON Example</title>
+    <meta name="description" content="Start Coding">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="../common/css/common.css">
+    
 <script type="text/javascript">
   const api = "AIzaSyCeuzC9nR3iMBMjrWquLLDV0Mc8zYgYpeU"; // Specify your api key here
 
@@ -37,6 +44,9 @@
 <script src="https://apis.google.com/js/client.js?onload=onLoad" type="text/javascript"></script>
 </head>
 <body>
+
+<?php include "../nav_main.php";?>
+
 <h1>YouTube Search Results</h1>
 <pre id="output"></pre>
 </body>

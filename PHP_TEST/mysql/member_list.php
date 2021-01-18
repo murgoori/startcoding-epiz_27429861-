@@ -1,4 +1,20 @@
 <?php
+$URL = "http://startcoding.epizy.com/"
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My First Javascript</title>
+    <meta name="description" content="Start Coding">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="../../common/css/common.css">
+</head>
+<body>
+
+<?php include "../../nav_main.php";?>
+
+<?php
 include 'db_conn.php';
 
 /* If we have to retrieve large amount of data we use MYSQLI_USE_RESULT */
@@ -11,8 +27,10 @@ if ($result = mysqli_query($conn, "SELECT * FROM sc_member", MYSQLI_USE_RESULT))
         printf("Error: %s\n", mysqli_error($conn));
     }
     mysqli_free_result($result);
-    $row = mysql_fetch_array($result);
+    $row = mysqli_fetch_array($result);
 }
 
 mysqli_close($conn);
 ?>
+</body>
+</html>

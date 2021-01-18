@@ -1,6 +1,19 @@
-<!DOCTYPE html>
-<html>
+<?php
+$URL = "http://startcoding.epizy.com/"
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My First Javascript</title>
+    <meta name="description" content="Start Coding">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="../common/css/common.css">
+</head>
+</head>
 <body>
+
+<?php include "../nav_main.php";?>
 
 <h2>1. Create Object from JSON String</h2>
 
